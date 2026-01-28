@@ -1,0 +1,7 @@
+tunnel: penitipan-backend
+credentials-file: C:\Users\%USERNAME%\.cloudflared\[TUNNEL-ID].json
+
+ingress:
+  - hostname: penitipan-backend.trycloudflare.com
+    service: http://localhost:3000
+  - service: http_status:404
