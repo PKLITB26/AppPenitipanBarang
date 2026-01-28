@@ -1,0 +1,171 @@
+import { StyleSheet } from 'react-native';
+
+export const barangListStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f9fa',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingTop: 65,
+    paddingBottom: 20,
+    backgroundColor: '#fff',
+  },
+  headerTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    gap: 10,
+  },
+  statCard: {
+    flex: 1,
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  statNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 2,
+  },
+  statLabel: {
+    fontSize: 11,
+    color: '#666',
+    fontWeight: '500',
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    marginHorizontal: 20,
+    marginBottom: 15,
+    paddingHorizontal: 15,
+    paddingVertical: 12,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#5e5e5e',
+  },
+  searchContainerFocused: {
+    borderColor: '#FFB300',
+    borderWidth: 2,
+  },
+  searchInput: {
+    flex: 1,
+    marginLeft: 10,
+    fontSize: 16,
+    color: '#333',
+  },
+  filterContainer: {
+    paddingHorizontal: 20,
+    marginBottom: 15,
+  },
+  filterTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333',
+  },
+  listContainer: {
+    paddingHorizontal: 20,
+    paddingBottom: 100,
+  },
+  listItem: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  iconContainer: {
+    marginRight: 12,
+  },
+  itemIcon: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FF9800',
+  },
+  itemInfo: {
+    flex: 1,
+  },
+  itemName: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 2,
+    flexShrink: 1,
+  },
+  itemCategory: {
+    fontSize: 12,
+    color: '#666',
+    marginBottom: 2,
+  },
+  itemCode: {
+    fontSize: 10,
+    color: '#999',
+  },
+  priceContainer: {
+    marginRight: 12,
+    alignItems: 'flex-end',
+  },
+  itemPrice: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#4CAF50',
+    marginBottom: 2,
+  },
+  itemStock: {
+    fontSize: 11,
+    color: '#666',
+  },
+  expiryContainer: {
+    marginRight: 12,
+    alignItems: 'flex-end',
+  },
+  expiryText: {
+    fontSize: 11,
+    fontWeight: '600',
+    marginBottom: 2,
+  },
+  expiryDate: {
+    fontSize: 10,
+    color: '#999',
+  },
+  statusContainer: {
+    marginRight: 12,
+  },
+  statusBadge: {
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  statusText: {
+    color: 'white',
+    fontSize: 11,
+    fontWeight: '600',
+    textTransform: 'capitalize',
+  },
+  menuButton: {
+    padding: 4,
+  },
+  
+  deleteButton: {
+    backgroundColor: '#f44336',
+  },
+  
+});
